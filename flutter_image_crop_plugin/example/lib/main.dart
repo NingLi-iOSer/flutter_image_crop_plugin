@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2019-12-05 17:12:48
+ * @LastEditTime: 2019-12-06 09:27:08
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /flutter_image_crop_plugin/example/lib/main.dart
+ */
 import 'dart:convert';
 import 'dart:typed_data';
 import 'dart:ui';

@@ -1,8 +1,8 @@
 name: flutter_image_crop_plugin
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: A flutter image crop Plugin.
+version: 1.0.1
+author: Ning<lining201702@gmail.com>
+homepage: https://github.com/NingLi-iOSer/flutter_image_crop_plugin/tree/1.0.0
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
