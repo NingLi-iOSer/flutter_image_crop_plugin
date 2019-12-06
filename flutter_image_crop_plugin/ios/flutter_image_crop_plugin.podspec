@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_image_crop_plugin'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A flutter image crop plugin.'
   s.description      = <<-DESC
 A new flutter plugin project.
