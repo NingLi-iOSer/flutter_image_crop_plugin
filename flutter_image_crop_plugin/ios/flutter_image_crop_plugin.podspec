@@ -3,20 +3,19 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_image_crop_plugin'
-  s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.version          = '1.0.4'
+  s.summary          = 'A flutter image crop plugin.'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/NingLi-iOSer/flutter_image_crop_plugin'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Ning' => 'lining201702@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-#  s.public_header_files = 'flutter_image_crop_plugin/*.h'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
 

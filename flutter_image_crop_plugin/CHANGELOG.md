@@ -1,3 +1,12 @@
-## 1.0.1
+<!--
+ * @Author: your name
+ * @Date: 2019-12-05 17:12:41
+ * @LastEditTime: 2019-12-06 10:20:06
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /flutter_image_crop_plugin/CHANGELOG.md
+ -->
 
-* Update README.md
+## 1.0.4
+
+* Update Podfile
