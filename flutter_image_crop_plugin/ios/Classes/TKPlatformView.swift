@@ -60,6 +60,8 @@ class TKPlatformView: UIScrollView, FlutterPlatformView {
         
         // 注册通信通道
         channel = FlutterBasicMessageChannel(name: "com.MingNiao/send_image", binaryMessenger: messenger)
+        
+        sendImage()
     }
     
     required init?(coder: NSCoder) {
@@ -86,16 +88,21 @@ class TKPlatformView: UIScrollView, FlutterPlatformView {
     @objc private func calculateTime() {
         currentTime += 1
         if currentTime >= 10 {
-            let image = imageView.currentCroppedImage()
             currentTime = 0
             invalidateTimer()
             
-            guard let imageData = image?.jpegData(compressionQuality: 0.8) else {
-                return
-            }
-            let imageBase64 = imageData.base64EncodedString()
-            channel?.sendMessage(imageBase64)
+            sendImage()
         }
+    }
+    
+    /// 发送图片
+    private func sendImage() {
+        let image = imageView.currentCroppedImage()
+        guard let imageData = image?.jpegData(compressionQuality: 0.8) else {
+            return
+        }
+        let imageBase64 = imageData.base64EncodedString()
+        channel?.sendMessage(imageBase64)
     }
 }
 
