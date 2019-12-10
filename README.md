@@ -18,3 +18,41 @@ import 'package:flutter_image_crop_plugin/flutter_image_crop_plugin.dart';
 
 ## ScreenShot
 <img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/preview.png" width="300">
+
+## Example
+
+Setting imageCropWidget parameters:
+```dart
+Map _setCreationParams(String imageBase64) {
+  return {
+    'toCropImage': imageBase64,
+    'showMidLines': false,
+    'needScaleCrop': false,
+    'showCrossLines': false,
+    'cornerBorderInImage': false,
+    'cropAreaCornerWidth': 44,
+    'cropAreaCornerHeight': 44,
+    'minSpace': 30,
+    'cropAreaCornerLineWidth': 3,
+    'cropAreaBorderLineWidth': 0,
+    'cropAreaMidLineWidth': 0,
+    'cropAreaMidLineHeight': 0,
+    'cropAreaCrossLineWidth': 0,
+    'cropAspectRatio': 0,
+  };
+}
+```
+
+Create imageCropWidget:
+```dart
+FlutterImageCropPlugin.imageCropWidget(_setCreationParams(parameters))
+```
+
+Receive the callback image:
+```dart
+FlutterImageCropPlugin.getImage((imageData) {
+  setState(() {
+    _imageData = imageData;
+  });
+});
+```
