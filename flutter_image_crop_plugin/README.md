@@ -1,7 +1,7 @@
 <!--
  * @Author: Ning
  * @Date: 2019-12-05 17:12:41
- * @LastEditTime: 2019-12-10 10:23:53
+ * @LastEditTime: 2019-12-10 10:29:47
  * @LastEditors: Please set LastEditors
  * @Description: Flutter Image Crop Plugin
  * @FilePath: /flutter_image_crop_plugin/README.md
@@ -11,7 +11,7 @@
 A flutter image crop plugin.
 
 ## Screensnot
-<img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/preview.png" width="300">
+<img src="https://raw.githubusercontent.com/NingLi-iOSer/flutter_image_crop_plugin/master/preview.png" width="300">
 
 ## Example
 
