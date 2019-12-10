@@ -45,7 +45,7 @@ Map _setCreationParams(String imageBase64) {
 
 Create imageCropWidget:
 ```dart
-FlutterImageCropPlugin.imageCropWidget(_setCreationParams(parameters))
+FlutterImageCropPlugin.imageCropWidget(parameters)
 ```
 
 Receive the callback image:
