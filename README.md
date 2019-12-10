@@ -2,6 +2,7 @@
 
 ![Pub](https://img.shields.io/pub/v/flutter_image_crop_plugin)
 ![GitHub](https://img.shields.io/github/license/NingLi-iOSer/flutter_image_crop_plugin)
+![support](https://img.shields.io/badge/platform--flutter-flutter%20%7C%20iOS-orange)
 
 ## Get started
 ### Add this to your package's pubspec.yaml file:
