@@ -7,6 +7,6 @@
  * @FilePath: /flutter_image_crop_plugin/CHANGELOG.md
  -->
 
-## 1.1.1
+## 1.1.2
 
-* Update Podfile
+* Update README

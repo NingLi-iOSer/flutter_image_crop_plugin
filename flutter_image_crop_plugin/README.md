@@ -1,14 +1,52 @@
+<!--
+ * @Author: Ning
+ * @Date: 2019-12-05 17:12:41
+ * @LastEditTime: 2019-12-10 10:23:53
+ * @LastEditors: Please set LastEditors
+ * @Description: Flutter Image Crop Plugin
+ * @FilePath: /flutter_image_crop_plugin/README.md
+ -->
 # flutter_image_crop_plugin
 
-A new flutter plugin project.
+A flutter image crop plugin.
 
-## Getting Started
+## Screensnot
+<img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/preview.png" width="300">
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Example
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Setting imageCropWidget parameters:
+```dart
+Map _setCreationParams(String imageBase64) {
+  return {
+    'toCropImage': imageBase64,
+    'showMidLines': false,
+    'needScaleCrop': false,
+    'showCrossLines': false,
+    'cornerBorderInImage': false,
+    'cropAreaCornerWidth': 44,
+    'cropAreaCornerHeight': 44,
+    'minSpace': 30,
+    'cropAreaCornerLineWidth': 3,
+    'cropAreaBorderLineWidth': 0,
+    'cropAreaMidLineWidth': 0,
+    'cropAreaMidLineHeight': 0,
+    'cropAreaCrossLineWidth': 0,
+    'cropAspectRatio': 0,
+  };
+}
+```
+
+Create imageCropWidget:
+```dart
+FlutterImageCropPlugin.imageCropWidget(parameters)
+```
+
+Receive the callback image:
+```dart
+FlutterImageCropPlugin.getImage((imageData) {
+  setState(() {
+    _imageData = imageData;
+  });
+});
+```
