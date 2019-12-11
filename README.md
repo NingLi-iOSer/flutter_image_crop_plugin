@@ -18,7 +18,11 @@ import 'package:flutter_image_crop_plugin/flutter_image_crop_plugin.dart';
 ```
 
 ## ScreenShot
-<img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/preview.png" width="300">
+### Take photo or select photo from the album
+<img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/select_image.png" width="300">
+
+### Crop Image
+<img src="https://github.com/NingLi-iOSer/flutter_image_crop_plugin/blob/master/crop_image.png" width="300">
 
 ## Example
 
