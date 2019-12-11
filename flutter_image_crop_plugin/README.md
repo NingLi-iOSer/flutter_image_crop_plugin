@@ -1,7 +1,7 @@
 <!--
  * @Author: Ning
  * @Date: 2019-12-05 17:12:41
- * @LastEditTime: 2019-12-11 16:02:00
+ * @LastEditTime: 2019-12-11 16:21:00
  * @LastEditors: Please set LastEditors
  * @Description: Flutter Image Crop Plugin
  * @FilePath: /flutter_image_crop_plugin/README.md
@@ -17,7 +17,7 @@
 ### Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  flutter_image_crop_plugin: ^1.1.4
+  flutter_image_crop_plugin: ^2.0.2
 ```
 
 ### Import it

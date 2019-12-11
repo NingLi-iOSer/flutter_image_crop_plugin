@@ -1,12 +1,12 @@
 <!--
  * @Author: Ning
  * @Date: 2019-12-05 17:12:41
- * @LastEditTime: 2019-12-11 15:54:28
+ * @LastEditTime: 2019-12-11 16:21:28
  * @LastEditors: Please set LastEditors
  * @Description: Take photo, pick photo, crop image plugin.
  * @FilePath: /flutter_image_crop_plugin/CHANGELOG.md
  -->
 
-## 1.1.4
+## 2.0.2
 
-* Add take photo, pick photo from the album.
+* Update plugin infomation.
