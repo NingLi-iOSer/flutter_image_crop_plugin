@@ -51,7 +51,9 @@ class CustomCamera: UIView {
         v.settingUI(messenger: messenger)
         v.isAvailableCamera { (isSuccess) in
             if isSuccess {
-                v.initCamera()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                    v.initCamera()
+                }
             }
         }
         return v
@@ -93,7 +95,6 @@ class CustomCamera: UIView {
         
         // 初始化输出流
         photoOutput = AVCaptureStillImageOutput()
-//        output = AVCaptureMetadataOutput()
         
         // 生成会话
         session = AVCaptureSession()
@@ -113,15 +114,13 @@ class CustomCamera: UIView {
         previewLayer.videoGravity = .resizeAspectFill
         layer.insertSublayer(previewLayer, at: 0)
         
-        DispatchQueue.main.async {
-            self.session.startRunning()
-            // 自动白平衡
-            if (try? self.device.lockForConfiguration()) != nil {
-                if self.device.isWhiteBalanceModeSupported(.autoWhiteBalance) {
-                    self.device.whiteBalanceMode = .autoWhiteBalance
-                }
-                self.device.unlockForConfiguration()
+        session.startRunning()
+        // 自动白平衡
+        if (try? device.lockForConfiguration()) != nil {
+            if device.isWhiteBalanceModeSupported(.autoWhiteBalance) {
+                device.whiteBalanceMode = .autoWhiteBalance
             }
+            device.unlockForConfiguration()
         }
     }
 }

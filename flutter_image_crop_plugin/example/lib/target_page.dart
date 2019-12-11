@@ -70,6 +70,7 @@ class _TargetPageState extends State<TargetPage> {
                   child: Icon(Icons.close),
                   onPressed: () {
                     setState(() {
+                      _imageData = null;
                       _hiddenClose = true;
                     });
                     FlutterImageCropPlugin.removeCropImageWidget();
