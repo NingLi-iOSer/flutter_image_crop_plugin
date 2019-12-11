@@ -1,45 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de1d4bec-c7a8-4d33-9fdc-63e4f383052c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ios/Classes/Camera/CustomCamera.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/Camera/CustomCamera.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/Camera/ImageCropView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/Camera/LNPlatformViewFactory.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/images/image.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_image_crop_plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_image_crop_plugin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-posits.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-posits.imageset/icon-posits@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-posits.imageset/icon-posits@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-qiehuan-shexiangtou.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-qiehuan-shexiangtou.imageset/icon-qiehuan-shexiangtou@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-qiehuan-shexiangtou.imageset/icon-qiehuan-shexiangtou@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-tupian.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-tupian.imageset/icon-tupian@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/icon-tupian.imageset/icon-tupian@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/nav_back_white.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/nav_back_white.imageset/nav_back_white@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/Camera/Assets.xcassets/nav_back_white.imageset/nav_back_white@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/CustomCamera.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/CustomCamera.xib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/ImageContainerView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/LNPlatformView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/LNPlatformView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFlutterImageCropPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftFlutterImageCropPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/TKImageView.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/TKImageView.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/TKImageViewFactory.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/TKPlatformView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/flutter_image_crop_plugin.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_image_crop_plugin.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_image_crop_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_image_crop_plugin.dart" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.dart_tool/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/.pub/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/example/.pub/" />
+    <ignored path="$PROJECT_DIR$/example/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_24" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="flutter_image_crop_plugin.dart" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/flutter_image_crop_plugin.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="-22" />
+    <option name="width" value="1383" />
+    <option name="height" value="899" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de1d4bec-c7a8-4d33-9fdc-63e4f383052c" name="Default Changelist" comment="" />
+      <created>1576029557410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576029557410</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="23" width="1383" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Captures" side_tool="true" />
+      <window_info id="Resources Explorer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981357" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Dart Analysis" weight="0.3299363" />
+      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Debug" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Performance" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/flutter_image_crop_plugin.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

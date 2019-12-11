@@ -879,7 +879,7 @@ typedef NS_ENUM(NSInteger, TKMidLineType) {
     CGFloat tmpCornerMargin = self.cornerMargin * _cornerBorderInImage;
     CGFloat width, height;
     if(_cropAspectRatio == 0) {
-        width = (WIDTH(_imageView) - 2 * tmpCornerMargin) - 80;
+        width = (WIDTH(_imageView) - 2 * tmpCornerMargin) - 200;
         height = width;
         if(_showMidLines) {
             [self createMidLines];
@@ -1163,7 +1163,8 @@ typedef NS_ENUM(NSInteger, TKMidLineType) {
 - (UIImage *)currentCroppedImage {
     
     CGFloat scaleFactor = WIDTH(_imageView) / _toCropImage.size.width;
-    return [_toCropImage imageAtRect: CGRectMake((MINX(_cropAreaView) + _cropAreaBorderLineWidth) / scaleFactor, (MINY(_cropAreaView) + _cropAreaBorderLineWidth) / scaleFactor, (WIDTH(_cropAreaView) - 2 * _cropAreaBorderLineWidth) / scaleFactor, (HEIGHT(_cropAreaView) - 2 * _cropAreaBorderLineWidth) / scaleFactor)];
+    CGRect rect = CGRectMake((MINX(_cropAreaView) + _cropAreaBorderLineWidth) / scaleFactor, (MINY(_cropAreaView) + _cropAreaBorderLineWidth) / scaleFactor, (WIDTH(_cropAreaView) - 2 * _cropAreaBorderLineWidth) / scaleFactor, (HEIGHT(_cropAreaView) - 2 * _cropAreaBorderLineWidth) / scaleFactor);
+    return [_toCropImage imageAtRect: rect];
     
 }
 @end

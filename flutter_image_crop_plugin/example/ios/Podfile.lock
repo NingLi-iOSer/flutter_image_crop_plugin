@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_image_crop_plugin (1.1.1):
+  - flutter_image_crop_plugin (1.1.3):
     - Flutter
 
 DEPENDENCIES:
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_image_crop_plugin: 871a4d77d4c968f199c444bfa0d6c3f504dfee27
+  flutter_image_crop_plugin: 06184f6655bdc8f4f07ad24ef9efeece0c3d79bd
 
-PODFILE CHECKSUM: 4a74498581ba354bba5bbce6be6afb9eb9cb9c22
+PODFILE CHECKSUM: 3d66ef87702a3c4827cff18194ccc1e2d45f062f
 
 COCOAPODS: 1.8.4

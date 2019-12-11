@@ -1,15 +1,15 @@
 //
-//  TKImageViewFactory.swift
+//  LNPlatformViewFactory.swift
 //  flutter_image_crop_plugin
 //
-//  Created by Ning Li on 2019/12/6.
+//  Created by Ning Li on 2019/12/10.
 //
 
-import Foundation
+import UIKit
 import Flutter
 
-class TestViewFactory: NSObject, FlutterPlatformViewFactory {
-    
+class LNPlatformViewFactory: NSObject, FlutterPlatformViewFactory {
+
     private var messenger: FlutterBinaryMessenger
     
     init(messenger: FlutterBinaryMessenger) {
@@ -18,7 +18,7 @@ class TestViewFactory: NSObject, FlutterPlatformViewFactory {
     }
     
     func create(withFrame frame: CGRect, viewIdentifier viewId: Int64, arguments args: Any?) -> FlutterPlatformView {
-        let v = TKPlatformView(frame: frame, viewId: viewId, arguments: args, messenger: messenger)
+        let v = LNPlatformView(frame: frame, viewId: viewId, arguments: args, messenger: messenger)
         return v
     }
     
