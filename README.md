@@ -9,7 +9,7 @@
 ### Add this to your package's pubspec.yaml file:
 ```
 dependencies:
-  flutter_image_crop_plugin: ^1.1.1
+  flutter_image_crop_plugin: ^1.1.4
 ```
 
 ### Import it
