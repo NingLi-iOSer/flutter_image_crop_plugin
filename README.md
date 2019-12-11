@@ -26,38 +26,35 @@ import 'package:flutter_image_crop_plugin/flutter_image_crop_plugin.dart';
 
 ## Example
 
-Setting imageCropWidget parameters:
+Create CameraWidget
 ```dart
-Map _setCreationParams(String imageBase64) {
-  return {
-    'toCropImage': imageBase64,
-    'showMidLines': false,
-    'needScaleCrop': false,
-    'showCrossLines': false,
-    'cornerBorderInImage': false,
-    'cropAreaCornerWidth': 44,
-    'cropAreaCornerHeight': 44,
-    'minSpace': 30,
-    'cropAreaCornerLineWidth': 3,
-    'cropAreaBorderLineWidth': 0,
-    'cropAreaMidLineWidth': 0,
-    'cropAreaMidLineHeight': 0,
-    'cropAreaCrossLineWidth': 0,
-    'cropAspectRatio': 0,
-  };
-}
+FlutterImageCropPlugin.cameraWidget()
 ```
 
-Create imageCropWidget:
+Get the original photo:
 ```dart
-FlutterImageCropPlugin.imageCropWidget(parameters)
+FlutterImageCropPlugin.getOriginalImage((imageBase64) {
+});
 ```
 
-Receive the callback image:
+Notification of completion of operation, remove mask view:
 ```dart
-FlutterImageCropPlugin.getImage((imageData) {
-  setState(() {
-    _imageData = imageData;
-  });
+FlutterImageCropPlugin.recognizeCompleted();
+```
+
+Get the Crop Image:
+```dart
+FlutterImageCropPlugin.getCropImage((imageData) {
+});
+```
+
+Remove image crop widget:
+```dart
+FlutterImageCropPlugin.removeCropImageWidget();
+```
+
+Exit camera:
+```dart
+FlutterImageCropPlugin.back(() {
 });
 ```
