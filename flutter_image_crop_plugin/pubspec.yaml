@@ -1,6 +1,6 @@
 name: flutter_image_crop_plugin
 description: A flutter plugin contain take photo, pick photo from the album and crop image. Easy to use. Take photo can switch front and back camera.
-version: 2.0.2
+version: 2.0.3
 author: Ning<lining201702@gmail.com>
 homepage: https://github.com/NingLi-iOSer/flutter_image_crop_plugin
 
